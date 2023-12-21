@@ -11,8 +11,8 @@ namespace testing {
         spr->setTexture(AssetServer::loadTexture("assets/sonic.png"));
         spr->origin.x = 0.5;
         spr->origin.y = 0.5;
-        spr->scale.x = 0.5;
-        spr->scale.y = 0.5;
+        spr->scale.x = 0.3;
+        spr->scale.y = 0.3;
         spr->position.x += (spr->getTexture()->width * spr->scale.x) * 0.5;
         spr->position.y += (spr->getTexture()->height * spr->scale.x) * 0.5;
         add(spr);
